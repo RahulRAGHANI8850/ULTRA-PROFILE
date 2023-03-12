@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+/* header starts here */
+.header-wrapper {
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-banner {
+    padding: 20px 0px;
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    line-height: 10rem;
+    text-align: center;
+}
+
+.header-banner h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #737373;
+}
+
+.header-banner h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #eb5424;
+}
+
+.header-banner p {
+    color: #737373;
+    padding: 30px 0px;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+.header-banner span {
+    font-weight: 900;
+}
+
+.header-banner button {
+    height: 60px;
+    background-color: #eb5424;
+    width: 200px;
+    border-radius: none;
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* header ens here */
+
+/* navbar starts here */
+.navbar-default {
+    background-color: none !important;
+    border: none;
+}
+
+.navbar {
+    padding: 15px 0px 8px 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-header a {
+    color: #000 !important;
+    font-size: 4rem;
+    transition: all 1s ease-out ;
+}
+
+.navbar-nav a {
+    font-size: 2.2rem;
+    color: #000 !important;
+    transition: all 400ms  ease-in ;
+}
+.navbar-nav a:hover {
+    font-size: 2.7rem;
+    color: #eb5424 !important;
+}
+.navbar-header a:hover
+{
+    color: #cc2127 !important;
+    transform: translate(50px) scale(1.2);
+}
+/* navbar ends here */
+
+
+/* my work starts here */
+.myWork {
+    padding: 90px 30px;
+}
+
+
+.myWork h1 {
+    font-size: 6.4rem;
+    padding: 60px 0px 40px 0px;
+    text-indent: 50px;
+    letter-spacing: .6rem;
+}
+
+.myWork h1 span {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.myWork .work-boxes {
+    width: 94%;
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 5%;
+    transition: all 400ms ease-out ;
+
+}
+
+.myWork .work-boxes h4 {
+    color: #eb5424;
+    font-size: 2.3rem;
+    padding: 30px 0px;
+    font-weight: 700;
+}
+
+.myWork .work-boxes span {
+    padding: 20px;
+    font-size: 7rem;
+    font-weight: 500;
+    color: #737373;
+}
+
+.myWork .work-boxes p {
+    padding: 40px 0px;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: lighter;
+    color: #737373;
+}
+
+.work-boxes:hover {
+    border-radius: 10%;
+    border: 3px solid #eb5424;
+    /* padding: 20px; */
+
+}
+
+/* my work ends here */
+
+/* port navbar starts here */
+
+.bg-grey {
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.port-logo {
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.port-nav {
+    padding: 50px 0px;
+    width: 50%; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.port-nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.port-nav ul li {
+    margin-bottom: 30px;
+    margin-left: -40px;
+}
+
+.port-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: none;
+    transition: all 600ms ease;
+}
+
+.port-nav ul li a:hover {
+    background-color: #eb5424;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* my info starts here */
+.my-info {
+    padding: 100px 80px;
+}
+
+.my-info h1 {
+    margin-bottom: 50px;
+    font-size: 5.5rem;
+}
+
+.my-profile {
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.my-profile p {
+    color: #737373;
+    font-weight: 100;
+    font-size: 1.7rem;
+}
+
+.my-skils {
+    line-height: 40px;
+    font-size: 2rem;
+}
+
+.progress-percentage {
+    font-size: 1rem;
+    font-weight: 100;
+
+}
+
+/* my info ends here */
+
+
+/* creative director starts here */
+.creative-director {
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    background-position: center;
+    background-image: url(../images/about-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.creative-director h1 {
+    padding: 30px 0px;
+    font-size: 3rem;
+}
+
+.creative-director p {
+    font-size: 1.8rem;
+    line-height: 30px;
+    padding: 5px;
+    color: #737373;
+}
+
+.creative-director span {
+    display: block;
+    color: #eb5424;
+    font-size: 3.5rem;
+    margin-top: 25px;
+    font-weight: 100;
+}
+
+/* creative-director ends here */
+
+
+/* social-media starts here */
+.social-media span {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #737373;
+    font-size: 4rem;
+    float: left;
+    margin: 30px 30px 20px 10px;
+}
+
+.social-media h2,
+h3 {
+    font-size: 2.5rem;
+}
+
+.social-media .facebook-icon {
+    background-color: #3b5998;
+}
+
+.social-media .twitter-icon {
+    background-color: #55acee;
+}
+
+.social-media .insta-icon {
+    background-color: #cc2127;
+}
+
+.icons {
+    color: #f8f8f8;
+    padding: 50px 20px;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-delay: .2s;
+    transition-timing-function: ease-in; */
+    transition: all 800ms ease-out .1s;
+}
+
+.icons:hover {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000;
+}
+
+/* social media ends here    */
+
+
+/* contact form starts here */
+.contact-form {
+    padding: 80px 40px;
+
+}
+
+
+.contact-form h1 {
+    margin: 80px 0px;
+    font-size: 5rem;
+}
+
+.contact-form form input {
+    transition: all 2s;
+}
+
+.contact-form form input:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+
+/* contact form ends here */
+
+/* footer starts here */
+.footer {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+/* footer ends here */
+@media only screen and (max-width: 480px)
+{
+    html
+    {
+        font-size: 8px;
+    }
+    .header-wrapper
+    {
+        height: 160vh;
+    }
+}
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 9px;
+    }
+}
